@@ -10,10 +10,10 @@ import CountrySelect from "../country-select"
 import { HttpTypes } from "@medusajs/types"
 
 const SideMenuItems = {
-  Home: "/",
-  Store: "/store",
-  Account: "/account",
-  Cart: "/cart",
+  Домашня: "/",
+  Магазин: "/store",
+  Акаунт: "/account",
+  Корзина: "/cart",
 }
 
 const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
@@ -30,7 +30,7 @@ const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
                   data-testid="nav-menu-button"
                   className="relative h-full flex items-center transition-all ease-out duration-200 focus:outline-none hover:text-ui-fg-base"
                 >
-                  Menu
+                  Меню
                 </Popover.Button>
               </div>
 
@@ -71,7 +71,7 @@ const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
                       })}
                     </ul>
                     <div className="flex flex-col gap-y-6">
-                      <div
+                      {/* <div
                         className="flex justify-between"
                         onMouseEnter={toggleState.open}
                         onMouseLeave={toggleState.close}
@@ -88,10 +88,9 @@ const SideMenu = ({ regions }: { regions: HttpTypes.StoreRegion[] | null }) => {
                             toggleState.state ? "-rotate-90" : ""
                           )}
                         />
-                      </div>
+                      </div> */}
                       <Text className="flex justify-between txt-compact-small">
-                        © {new Date().getFullYear()} Shina Mix Medusa Store. All rights
-                        reserved.
+                        © {new Date().getFullYear()} Шина Мікс. Всі права застережено.
                       </Text>
                     </div>
                   </div>

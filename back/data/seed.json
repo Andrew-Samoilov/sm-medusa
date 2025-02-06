@@ -1,0 +1,12 @@
+{
+  "regions": [
+    {
+      "name": "Україна",
+      "currency_code": "UAH",
+      "countries": [
+        { "iso_2": "UA", "iso_3": "UKR", "num_code": "804", "name": "Ukraine" }
+      ],
+      "tax_rate": 20
+    }
+  ]
+}

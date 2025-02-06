@@ -21,10 +21,10 @@ const Register = ({ setCurrentView }: Props) => {
       data-testid="register-page"
     >
       <h1 className="text-large-semi uppercase mb-6">
-        Become a Shina Mix Medusa Store Member
+        Become a Шина Мікс Member
       </h1>
       <p className="text-center text-base-regular text-ui-fg-base mb-4">
-        Create your Shina Mix Medusa Store Member profile, and get access to an enhanced
+        Create your Шина Мікс Member profile, and get access to an enhanced
         shopping experience.
       </p>
       <form className="w-full flex flex-col" action={formAction}>
@@ -69,7 +69,7 @@ const Register = ({ setCurrentView }: Props) => {
         </div>
         <ErrorMessage error={message} data-testid="register-error" />
         <span className="text-center text-ui-fg-base text-small-regular mt-6">
-          By creating an account, you agree to Shina Mix Medusa Store&apos;s{" "}
+          By creating an account, you agree to Шина Мікс&apos;s{" "}
           <LocalizedClientLink
             href="/content/privacy-policy"
             className="underline"
