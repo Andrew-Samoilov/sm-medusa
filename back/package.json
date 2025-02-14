@@ -1,11 +1,9 @@
 {
   "name": "back",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A starter for Medusa projects.",
   "author": "Medusa (https://medusajs.com)",
-  "license": "MIT",
   "keywords": [
-    "sqlite",
     "postgres",
     "typescript",
     "ecommerce",
